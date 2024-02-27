@@ -1,0 +1,58 @@
+/* BANNER - START*/
+
+.banner{
+   width: 100%;
+   margin-top: 120px;
+   display: flex;
+   flex-direction: column;
+   gap: 21px;
+
+   @include media(670){
+      margin-top: 100px;
+   }
+   @include media(560){
+      margin-top: 80px;
+   }
+   @include media(450){
+      margin-top: 60px;
+      gap: 11px;
+   }
+
+   &-top{
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 44px;
+      letter-spacing: 1.6px;
+      color: #703412;
+   }
+   &-bottom{
+      width: 100%;
+      font-size: 80px;
+      font-weight: 500;
+      line-height: 88px;
+      color: #703412;
+
+      @include media(1016){
+         font-size: 70px;
+     }
+      @include media(920){
+         font-size: 60px;
+         line-height: 68px;
+     }
+      @include media(670){
+         font-size: 50px;
+         line-height: 58px;
+     }
+      @include media(560){
+         font-size: 40px;
+         line-height: 48px;
+     }
+      @include media(450){
+         font-size: 30px;
+         line-height: 38px;
+     }
+
+   }
+}
+
+/* BANNER - END*/
